@@ -31,7 +31,7 @@ Factory Pattern
 	:members:
 
 Decorator Pattern
----------------
+-----------------
 .. py:currentmodule:: Decorator.Decorator
 .. autoclass:: PizzaBase
 	:members:
@@ -39,17 +39,14 @@ Decorator Pattern
 .. autoclass:: Decorator
 	:members:
 	
-.. autoclass:: Mozzaralla
+.. autoclass:: Mozzarella
 	:members:
 	
 .. autoclass:: PizzaBasePizza
 	:members:
 
 Singleton Pattern
----------------
-.. py:currentmodule:: Singleton.onlyone
+-----------------
+.. py:currentmodule:: Singletons.onlyone
 .. autoclass:: OnlyOne
-	:members:
-	
-.. autoclass:: __OnlyOne
-	:members:
+	:members:	

@@ -193,6 +193,47 @@ Legacy Roman und dem neuen Kunden ist</p>
 </dd></dl>
 
 </div>
+<div class="section" id="decorator-pattern">
+<h2>Decorator Pattern<a class="headerlink" href="#decorator-pattern" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="Decorator.Decorator.PizzaBase">
+<em class="property">class </em><code class="descclassname">Decorator.Decorator.</code><code class="descname">PizzaBase</code><a class="headerlink" href="#Decorator.Decorator.PizzaBase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Stellt eine Pizza da.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="Decorator.Decorator.Decorator">
+<em class="property">class </em><code class="descclassname">Decorator.Decorator.</code><code class="descname">Decorator</code><a class="headerlink" href="#Decorator.Decorator.Decorator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Der Decorator erbt von PizzaBase</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="Decorator.Decorator.Mozzarella">
+<em class="property">class </em><code class="descclassname">Decorator.Decorator.</code><code class="descname">Mozzarella</code><span class="sig-paren">(</span><em>newpizza</em><span class="sig-paren">)</span><a class="headerlink" href="#Decorator.Decorator.Mozzarella" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="Decorator.Decorator.PizzaBasePizza">
+<em class="property">class </em><code class="descclassname">Decorator.Decorator.</code><code class="descname">PizzaBasePizza</code><span class="sig-paren">(</span><em>desc</em><span class="sig-paren">)</span><a class="headerlink" href="#Decorator.Decorator.PizzaBasePizza" title="Permalink to this definition">¶</a></dt>
+<dd><p>Diese Klasse verwendet PizzaBase</p>
+</dd></dl>
+
+</div>
+<div class="section" id="singleton-pattern">
+<h2>Singleton Pattern<a class="headerlink" href="#singleton-pattern" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="Singletons.onlyone.OnlyOne">
+<em class="property">class </em><code class="descclassname">Singletons.onlyone.</code><code class="descname">OnlyOne</code><span class="sig-paren">(</span><em>arg</em><span class="sig-paren">)</span><a class="headerlink" href="#Singletons.onlyone.OnlyOne" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="attribute">
+<dt id="Singletons.onlyone.OnlyOne.instance">
+<code class="descname">instance</code><em class="property"> = &lt;Singletons.onlyone.OnlyOne.__OnlyOne object at 0x03F231B0&gt;</em><a class="headerlink" href="#Singletons.onlyone.OnlyOne.instance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Der Konstruktor der OnlyOne Klasse. Es wird geschaut ob OnlyOne eine Instanz hat,
+ha sie noch keine wird eine neue Instanz erzeugt.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
 </div>
 
 
@@ -206,6 +247,8 @@ Legacy Roman und dem neuen Kunden ist</p>
 <li><a class="reference internal" href="#">Documentation</a><ul>
 <li><a class="reference internal" href="#adapter-pattern">Adapter Pattern</a></li>
 <li><a class="reference internal" href="#factory-pattern">Factory Pattern</a></li>
+<li><a class="reference internal" href="#decorator-pattern">Decorator Pattern</a></li>
+<li><a class="reference internal" href="#singleton-pattern">Singleton Pattern</a></li>
 </ul>
 </li>
 </ul>

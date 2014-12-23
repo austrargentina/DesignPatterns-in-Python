@@ -6,6 +6,15 @@
 Welcome to DesignPatterns in Python's documentation!
 ====================================================
 
+Good morning Mr. Raffeiner-Magor and/or Mr. Borko!
+Nice to see you back at our documentation page of "DesignPatterns in Python".
+We hope to have accomplished all the given tasks, and wish you a pleasant stay.
+All the best,
+
+Daniel and Isabella
+
+~~~~~~~~~~~~~~~~~~~
+
 Contents:
 
 .. toctree::
