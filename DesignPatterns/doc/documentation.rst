@@ -29,3 +29,27 @@ Factory Pattern
 	
 .. autoclass:: PalatschinkenFactory
 	:members:
+
+Decorator Pattern
+---------------
+.. py:currentmodule:: Decorator.Decorator
+.. autoclass:: PizzaBase
+	:members:
+	
+.. autoclass:: Decorator
+	:members:
+	
+.. autoclass:: Mozzaralla
+	:members:
+	
+.. autoclass:: PizzaBasePizza
+	:members:
+
+Singleton Pattern
+---------------
+.. py:currentmodule:: Singleton.onlyone
+.. autoclass:: OnlyOne
+	:members:
+	
+.. autoclass:: __OnlyOne
+	:members:
