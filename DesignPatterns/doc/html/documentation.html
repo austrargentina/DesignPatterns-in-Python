@@ -117,6 +117,82 @@ Legacy Roman und dem neuen Kunden ist</p>
 </dd></dl>
 
 </div>
+<div class="section" id="factory-pattern">
+<h2>Factory Pattern<a class="headerlink" href="#factory-pattern" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="Factory.Factory.Palatschinke">
+<em class="property">class </em><code class="descclassname">Factory.Factory.</code><code class="descname">Palatschinke</code><a class="headerlink" href="#Factory.Factory.Palatschinke" title="Permalink to this definition">¶</a></dt>
+<dd><p>Interface Palatschinke</p>
+<dl class="method">
+<dt id="Factory.Factory.Palatschinke.getName">
+<code class="descname">getName</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Factory.Factory.Palatschinke.getName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gibt den Namen des Objekts zurueck</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Factory.Factory.Palatschinke.getPrice">
+<code class="descname">getPrice</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Factory.Factory.Palatschinke.getPrice" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gibt den zu zahlenden Wert zurück
+:return: Preis in €</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Factory.Factory.EisPalatschinke">
+<em class="property">class </em><code class="descclassname">Factory.Factory.</code><code class="descname">EisPalatschinke</code><a class="headerlink" href="#Factory.Factory.EisPalatschinke" title="Permalink to this definition">¶</a></dt>
+<dd><p>Erbt von Palatschinke</p>
+<dl class="method">
+<dt id="Factory.Factory.EisPalatschinke.getName">
+<code class="descname">getName</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Factory.Factory.EisPalatschinke.getName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gibt den Namen der Palatschinke zurück
+:return: Name der Palatschinke</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Factory.Factory.EisPalatschinke.getPrice">
+<code class="descname">getPrice</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Factory.Factory.EisPalatschinke.getPrice" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gibt den zu zahlenden Wert zurück (3€)
+:return: Preis in €</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Factory.Factory.MarmeladenPalatschinke">
+<em class="property">class </em><code class="descclassname">Factory.Factory.</code><code class="descname">MarmeladenPalatschinke</code><a class="headerlink" href="#Factory.Factory.MarmeladenPalatschinke" title="Permalink to this definition">¶</a></dt>
+<dd><p>Erbt von Palatschinke</p>
+<dl class="method">
+<dt id="Factory.Factory.MarmeladenPalatschinke.getName">
+<code class="descname">getName</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Factory.Factory.MarmeladenPalatschinke.getName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gibt den Namen der Palatschinke zurück
+:return: Name der Palatschinke</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Factory.Factory.MarmeladenPalatschinke.getPrice">
+<code class="descname">getPrice</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Factory.Factory.MarmeladenPalatschinke.getPrice" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gibt den zu zahlenden Wert zurück (3€)
+:return: Preis in €</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Factory.Factory.PalatschinkenFactory">
+<em class="property">class </em><code class="descclassname">Factory.Factory.</code><code class="descname">PalatschinkenFactory</code><a class="headerlink" href="#Factory.Factory.PalatschinkenFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Ist die Factory, die je nach gewünschter Art eine andere Palatschinke erzeugt</p>
+<dl class="staticmethod">
+<dt id="Factory.Factory.PalatschinkenFactory.createPalatschinke">
+<em class="property">static </em><code class="descname">createPalatschinke</code><span class="sig-paren">(</span><em>art</em><span class="sig-paren">)</span><a class="headerlink" href="#Factory.Factory.PalatschinkenFactory.createPalatschinke" title="Permalink to this definition">¶</a></dt>
+<dd><p>Erzeugt ein neues Palatschinkenobjekt, je nach gewünschter art
+:param art: Art der gewünschten Palatschinke
+:return:</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
 </div>
 
 
@@ -129,6 +205,7 @@ Legacy Roman und dem neuen Kunden ist</p>
   <ul>
 <li><a class="reference internal" href="#">Documentation</a><ul>
 <li><a class="reference internal" href="#adapter-pattern">Adapter Pattern</a></li>
+<li><a class="reference internal" href="#factory-pattern">Factory Pattern</a></li>
 </ul>
 </li>
 </ul>
